@@ -40,7 +40,6 @@ function App() {
           setLoading(false);
           return;
         } else {
-          // TODO: check this error handling
           throw new Error(checkData?.error ||'Failed to check for existing vouchers.');
         }      
       } 
@@ -71,7 +70,6 @@ function App() {
           setLoading(false);
           return;
         } else {
-          // TODO: check this error handling
           throw new Error(generateData?.error || 'Failed to generate vouchers.');
         }      
       } 
